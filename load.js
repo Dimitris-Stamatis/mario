@@ -2,8 +2,8 @@ var loadState = {
 	preload: function(){
 		//  We need this because the assets are on github pages
         //  Remove the next 2 lines if running locally
-        //this.load.baseURL = 'https://ioniodi.github.io/pacman/';
-        //this.load.crossOrigin = 'anonymous';
+        this.load.baseURL = 'https://Dimitris-Stamatis.github.io/pacman/';
+        this.load.crossOrigin = 'anonymous';
 		
 		var loadingLabel = game.add.image(game.world.centerX - (353/2*0.7),20,'loadingLogo');
         loadingLabel.scale.setTo(0.7);
